@@ -1,0 +1,562 @@
+black-border = #2c2b2c
+white-border = #fefcfc
+flor1 = #fd6b6b
+flor2 = #fe1b1f
+flor3 = #ffd700
+hoja1 = #00ae28
+hoja2 = #007728
+body1 = #00bfff
+body2 = #008f8e
+
+pintas(column, column2, row, row2, color)
+    grid-column-start: column
+    grid-column-end: column2 
+    grid-row: row
+    grid-row-end: row2
+    background-color: color
+
+main
+    width: 100vw;
+    height: 100vh;
+
+.pokemon
+    display grid
+    grid-template-columns: repeat(35, 35px)
+    grid-template-rows: repeat(35, 35px)
+    justify-content: center
+    align-content: center
+
+.one
+    pintas(20, 23, 2, 3, black-border)
+
+.two
+    pintas(24, 28, 2, 3, black-border)
+
+.three
+    pintas(18, 20, 3 , 4, black-border)
+
+.four
+    pintas(20, 21, 3, 4, flor1)
+
+.five
+    pintas(21, 23, 3, 4, flor3)
+
+.six
+    pintas(23, 24, 3, 4, black-border)
+
+.seven
+    pintas(24, 25, 3, 4, flor1)
+
+.eight
+    pintas(25, 27, 3, 4, flor3)
+
+.nine
+    pintas(27, 28, 3, 4, flor1)
+
+.ten
+    pintas(28, 30, 3, 4, black-border)
+
+.eleven
+    pintas(17, 18, 4, 5, black-border)
+
+.twelve
+    pintas(18, 19, 4, 5, flor3)
+
+.thirteen
+    pintas(19, 20, 4, 5, flor1)
+
+.fourteen
+    pintas(20, 22, 4, 5, flor2)
+
+.fifteen
+    pintas(22, 25, 4, 5, black-border)
+
+.sixteen
+    pintas(25, 27, 4, 5, flor2)
+
+.seventeen
+    pintas(27, 29, 4, 5, flor3)
+
+.eighteen
+    pintas(29, 30, 4, 5, flor2)
+
+.nineteen
+    pintas(30, 31, 4, 5, black-border)
+
+.twenty
+    pintas(16, 17, 5, 7, black-border)
+
+.twenty-one
+    pintas(17, 20, 5, 6, flor2)
+
+.twenty-two
+    pintas(20, 22, 5, 6, black-border)
+
+.twenty-three
+    pintas(22, 25, 5, 6, flor3)
+
+.twenty-four
+    pintas(25, 29, 5, 6, black-border)
+
+.twenty-five
+    pintas(29, 31, 5, 6, flor2)
+
+.twenty-six
+    pintas(31, 32, 5, 10, black-border)
+
+.twenty-seven
+    pintas(17, 18, 6, 7, flor2)
+
+.twenty-eight
+    pintas(18, 20, 6, 7, black-border)
+
+.twenty-nine
+    pintas(20, 22, 6, 7, flor1)
+
+.thirty
+    pintas(22, 24, 6, 7, black-border)
+
+.thirty-one
+    pintas(24, 26, 6, 7, flor3)
+
+.thirty-two
+    pintas(26, 27, 6, 7, black-border)
+
+.thirty-three
+    pintas(27, 28, 6, 7, flor1)
+
+.thirty-four
+    pintas(28, 29, 6, 7, flor3)
+
+.thirty-five
+    pintas(29, 31, 6, 7, black-border)
+
+.thirty-six
+    pintas(15, 18, 7, 8, black-border)
+
+.thirty-seven
+    pintas(18, 19, 7, 8, flor2)
+
+.thirty-eight
+    pintas(19, 21, 7, 8, flor3)
+
+.thirty-nine
+    pintas(21, 24, 7, 8, flor1)
+
+.forty
+    pintas(24, 25, 7, 8, flor2)
+
+.forty-one
+    pintas(25, 26, 7, 9, black-border)
+
+.forty-two
+    pintas(26, 29, 7, 8, flor1)
+
+.forty-three
+    pintas(29, 31, 7, 8, flor2)
+
+.forty-four
+    pintas(14, 15, 8, 9, black-border)
+
+.forty-five
+    pintas(15, 16, 8, 9, hoja1)
+
+.forty-six
+    pintas(16, 17, 8, 9, black-border)
+
+.forty-seven
+    pintas(17, 20, 8, 9, flor2)
+
+.forty-eight
+    pintas(20, 23, 8, 9, flor1)
+
+.forty-nine
+    pintas(23, 25, 8, 9, flor2)
+
+.fifty
+    pintas(26, 28, 8, 9, flor3)
+
+.fifty-one
+    pintas(28, 31, 8, 9, flor2)
+
+.fifty-two
+    pintas(11, 12, 9, 10, black-border)
+
+.fifty-three
+    pintas(13, 18, 9, 10, black-border)
+
+.fifty-four
+    pintas(18, 24, 9, 10, flor2)
+
+.fifty-five
+    pintas(24, 25, 9, 10, black-border)
+
+.fifty-six
+    pintas(25, 30, 9, 10, flor2)
+
+.fifty-seven
+    pintas(30, 31, 9, 10, black-border)
+
+.fifty-eight
+    pintas(10, 11, 10, 13, black-border)
+
+.fifty-nine
+    pintas(11, 12, 10, 11, body1)
+
+.sixty-one
+    pintas(12, 14, 10, 11, black-border)
+
+.sixty-two
+    pintas(14, 15, 10, 11, hoja1)
+
+.sixty-three
+    pintas(15, 16, 10, 11, black-border)
+
+.sixty-four
+    pintas(16, 17, 10, 12, hoja1)
+
+.sixty-five
+    pintas(17, 18, 10, 11, hoja2)
+
+.sixty-six
+    pintas(18, 21, 10, 11, black-border)
+
+.sixty-seven
+    pintas(21, 24, 10, 11, flor2)
+
+.sixty-eight
+    pintas(24, 30, 10, 11, black-border)
+
+.sixty-nine
+    pintas(30, 31, 10, 11, hoja2)
+
+.seventy
+    pintas(31, 33, 10, 11, black-border)
+
+.seventy-one
+    pintas(11, 13, 11, 12, body1)
+
+.seventy-two
+    pintas(13, 16, 11, 12, black-border)
+
+.seventy-three
+    pintas(17, 19, 11, 12, black-border)
+
+.seventy-four
+    pintas(19, 20, 11, 12, hoja1)
+
+.seventy-five
+    pintas(20, 21, 11, 12, hoja2)
+
+.seventy-six
+    pintas(21, 24, 11, 12, black-border)
+
+.seventy-seven
+    pintas(24, 25, 11, 12, hoja2)
+
+.seventy-eight
+    pintas(25, 26, 11, 13, black-border)
+
+.seventy-nine
+    pintas(26, 29, 11, 12, hoja2)
+
+.eighty
+    pintas(29, 31, 11, 12, black-border)
+
+.eighty-one
+    pintas(31, 33, 11, 12, hoja1)
+
+.eighty-two
+    pintas(33, 34, 11, 15, black-border)
+
+.eighty-three
+    pintas(11, 15, 12, 13, body1)
+
+.eighty-four
+    pintas(15, 16, 12, 13, body2)
+
+.eighty-five
+    pintas(16, 20, 12, 13, black-border)
+
+.eighty-six
+    pintas(20, 22, 12, 13, hoja2)
+
+.eighty-seven
+    pintas(22, 23, 12, 13, black-border)
+
+.eighty-eight
+    pintas(23, 24, 12, 13, hoja2)
+
+.eighty-nine
+    pintas(24, 25, 12, 13, black-border)
+
+.ninety
+    pintas(26, 27, 12, 13, hoja2)
+
+.ninety-one
+    pintas(27, 28, 12, 13, black-border)
+
+.ninety-two
+    pintas(28, 30, 12, 13, hoja1)
+
+.ninety-three
+    pintas(30, 31, 12, 13, black-border)
+
+.ninety-four
+    pintas(31, 32, 12, 13, hoja1)
+
+.ninety-five
+    pintas(32, 33, 12, 13, black-border)
+
+.ninety-six
+    pintas(9, 10, 13, 14, black-border)
+
+.ninety-seven
+    pintas(10, 19, 13, 14, body1)
+
+.ninety-eight
+    pintas(19, 20, 13, 14, body2)
+
+.ninety-nine
+    pintas(20, 25, 13, 14, black-border)
+
+.one-hundred
+    pintas(25, 26, 13, 14, body2)
+
+.one-hundred-one
+    pintas(26, 28, 13, 14, black-border)
+
+.one-hundred-two
+    pintas(28, 29, 13, 14, hoja2)
+
+.one-hundred-three
+    pintas(29, 30, 13, 14, black-border)
+
+.one-hundred-four
+    pintas(30, 31, 13, 15, hoja1)
+
+.one-hundred-five
+    pintas(31, 32, 13, 15, black-border)
+
+.one-hundred-six
+    pintas(32, 33, 13, 14, hoja1)
+
+.one-hundred-seven
+    pintas(8, 9, 14, 15, black-border)
+
+.one-hundred-eight
+    pintas(9, 10, 14, 15, body1)
+
+.one-hundred-nine
+    pintas(10, 11, 14, 15, body2)
+
+.one-hundred-ten
+    pintas(11, 22, 14, 15, body1)
+
+.one-hundred-eleven
+    pintas(22, 24, 14, 15, body2)
+
+.one-hundred-twelve
+    pintas(24, 25, 14, 16, black-border)
+
+.one-hundred-thirteen
+    pintas(25, 28, 14, 15, body2)
+
+.one-hundred-fourteen
+    pintas(28, 30, 14, 15, black-border)
+
+.one-hundred-fifteen
+    pintas(32, 33, 14, 15, hoja2)
+
+.one-hundred-sixteen
+    pintas(7, 9, 15, 17, black-border)
+
+
+.one-hundred-twenty-one
+    pintas(9, 10, 15, 17, body2)
+
+
+.one-hundred-seventeen
+    pintas(10, 21, 15, 16, body1)
+
+
+.one-hundred-twenty-two
+    pintas(21, 22, 15, 16, body2)
+
+
+.one-hundred-eighteen
+    pintas(22, 24, 15, 16, flor2)
+
+.one-hundred-nineteen
+    pintas(25, 26, 15, 16, body2)
+
+.one-hundred-twenty
+    pintas(26, 27, 15, 16, black-border)
+
+.one-hundred-twenty-three
+    pintas(27, 30, 15, 16, body2)
+
+.one-hundred-twenty-four
+    pintas(30, 33, 15, 16, black-border)
+
+.one-hundred-twenty-five
+    pintas(10, 16, 16, 17, body1)
+
+.one-hundred-twenty-six
+    pintas(16, 18, 16, 17, body2)
+
+.one-hundred-twenty-seven
+    pintas(18, 21, 16, 17, body1)
+
+.one-hundred-twenty-eight
+    pintas(21, 23, 16, 17, flor2)
+
+.one-hundred-twenty-nine
+    pintas(23, 24, 16, 18, black-border)
+
+.one-hundred-thirty-one
+    pintas(24, 27, 16, 17, body2)
+
+.one-hundred-thirty-two 
+    pintas(27, 28, 16, 18,black-border)
+
+.one-hundred-thirty-three 
+    pintas(28, 30, 16, 17, body2)
+.one-hundred-thirty-four
+    pintas(31, 32, 16, 17, black-border)
+.one-hundred-thirty-five
+    pintas(7, 8, 17, 18, black-border)
+.one-hundred-thirty-six 
+    pintas(8, 15, 17, 18, body1)
+.one-hundred-thirty-seven 
+    pintas(15, 16, 17, 19, body2)
+.one-hundred-thirty-eight 
+    pintas(16, 17, 17, 18, body1)
+.one-hundred-thirty-nine
+    pintas(17, 19, 17, 18, black-border)
+
+.one-hundred-forty
+    pintas(19, 20, 17, 18, body1)
+.one-hundred-forty-one
+    pintas(20, 23, 17, 18, body2)
+.one-hundred-forty-two 
+    pintas(24, 25, 17, 18, body2)
+.one-hundred-forty-three 
+    pintas(25, 26, 17, 18, black-border)
+.one-hundred-forty-four
+    pintas(26, 27, 17, 18, body2)
+.one-hundred-forty-five
+    pintas(28, 29, 17, 18, body2)
+.one-hundred-forty-six 
+    pintas(30, 31, 17, 18, black-border)
+.one-hundred-forty-seven 
+    pintas(8, 9, 18, 20, black-border)
+.one-hundred-forty-eight 
+    pintas(9, 15, 18, 20, body1)
+.one-hundred-forty-nine
+    pintas(16, 17, 18, 19, black-border)
+
+.one-hundred-fitfy
+    pintas(17, 18, 18, 19, flor2)
+.one-hundred-fitfy-one
+    pintas(17, 18, 18, 19, flor2)
+.one-hundred-fitfy-two 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fitfy-three 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fitfy-four
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fitfy-five
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fitfy-six 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fitfy-seven 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fitfy-eight 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fitfy-nine
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-sixty
+    pintas(17, 18, 18, 19, flor2)
+.one-hundred-sixty-one
+    pintas(19, 26, 18, 19, body2)
+.one-hundred-sixty-two 
+    pintas(26, 27, 18, 20, black-border)
+.one-hundred-sixty-three 
+    pintas(28, 30, 18, 19, black-border)
+.one-hundred-sixty-four
+    pintas(15, 16, 19, 20, black-border)
+.one-hundred-sixty-five
+    pintas(18, 19, 19, 20, body1)
+.one-hundred-sixty-six 
+    pintas(19, 22, 19, 20, body2)
+.one-hundred-sixty-seven 
+    pintas(22, 23, 19, 21, black-border)
+.one-hundred-sixty-eight 
+    pintas(23, 26, 19, 20, body2)
+.one-hundred-sixty-nine
+    pintas(9, 10, 19, 21, black-border)
+
+.one-hundred-seventy
+    pintas(10, 11, 20, 21, body2)
+.one-hundred-seventy-one
+    pintas(11, 12, 20, 21, body1)
+.one-hundred-seventy-two 
+    pintas(12, 13, 20, 21, black-border)
+.one-hundred-seventy-three 
+    pintas(13, 16, 20, 21, body1)
+.one-hundred-seventy-four
+    pintas(16, 21, 20, 21, body2)
+.one-hundred-seventy-five
+    pintas(21, 22, 20, 21, black-border)
+.one-hundred-seventy-six 
+    pintas(23, 27, 20, 21, body2)
+.one-hundred-seventy-seven 
+    pintas(27, 28, 20, 22, black-border)
+.one-hundred-seventy-eight 
+    pintas(10, 12, 21, 22, black-border)
+.one-hundred-seventy-nine
+    pintas(12, 19, 21, 22, body2)
+
+.one-hundred-eighty
+    pintas(19, 22, 21, 22, black-border)
+.one-hundred-eighty-one
+    pintas(22, 26, 21, 22, body2)
+.one-hundred-eighty-two 
+    pintas(12, 19, 22, 23, black-border)
+.one-hundred-eighty-three 
+    pintas(22, 23, 22, 23, black-border)
+.one-hundred-eighty-four
+    pintas(24, 25, 22, 23, body2)
+.one-hundred-eighty-five
+    pintas(26, 27, 22, 23, black-border)
+.one-hundred-eighty-six 
+    pintas(23, 26, 23, 24, black-border)
+.one-hundred-eighty-seven 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-eighty-eight 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-eighty-nine
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-ninety
+    pintas(1, 1, 1, 1, white)
+.one-hundred-ninety-one
+    pintas(1, 1, 1, 1, white)
+.one-hundred-ninety-two 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-ninety-three 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-ninety-four
+    pintas(1, 1, 1, 1, white)
+.one-hundred-ninety-five
+    pintas(1, 1, 1, 1, white)
+.one-hundred-ninety-six 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-ninety-seven 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-ninety-eight 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-ninety-nine
+    pintas(1, 1, 1, 1, white)
